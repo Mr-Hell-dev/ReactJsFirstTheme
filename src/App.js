@@ -1,12 +1,15 @@
 import { Switch, Route } from "react-router-dom";
 import './App.css';
-import Home from "./Components/Home";
-
+import Pages from "./Pages/Pages.jsx";
+import Navbar from "./Components/Navbar/Navbar.jsx";
 function App() {
   return (
-    <Switch>
-      <Route path="/" component={Home} />
-    </Switch>
+    <div className="my-container">
+      <Navbar />
+      <Switch>
+        <Route path="/" component={Pages} />
+      </Switch>
+    </div>
   );
 }
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Postcard.css";
 const postcard = ({ img, title, desc }) => {
 
     return (

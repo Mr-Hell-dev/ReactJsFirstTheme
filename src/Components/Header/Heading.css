@@ -1,0 +1,51 @@
+.tagline{
+    width: 100%;
+    text-align: center;
+  }
+  .name-com{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 0px;
+  }
+  
+  .header{
+    width: 100%;
+    padding: 3%;
+  }
+  
+  .belowname{
+    width: 70%;
+    margin:auto;
+    font-weight: bold;
+    color:grey;
+    font-size: 1.5rem;
+  }
+  
+  .buttongroup{
+    width: 100%;
+  }
+  
+  .insidebuttongroup{
+    
+    width: 25%;
+    margin:auto;
+    padding: 3px;
+  }
+  .centeredbtn{
+    width: 45%;
+    padding: 5px;
+    border: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 2px;
+    font-size:1em;
+  }
+  .clrpurple{
+    background-color: #4427ffcc;
+    color: white;
+  }
+  .centeredbtn:active{
+    color:grey;
+    font-size: 1.25em;
+  }
+  
