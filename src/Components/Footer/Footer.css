@@ -1,0 +1,51 @@
+.imgdiv
+{
+    width: 10%;
+}
+
+.footer{
+    display: flex;
+}
+.logoinfo{
+    float: left;
+    width: 80%;
+}
+
+.sociallinks
+{
+    width:50%;
+    padding: 4px;
+}
+.socialicons{
+    text-align: center;
+}
+.scaleabit
+{
+    font-size: 1.5em;
+    display: inline;
+    margin-left: 1em;
+}
+.footer{
+    width: 100%;
+}
+.fullwidth{
+    width: 100%;
+}
+.footer>.pagelinks{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.footerlinks{
+    width: 100%;
+    margin: 0%;
+    padding: 3px;
+    text-align: center;
+    font-size: 1.15em;
+}
+.footerlinks>li{
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+    width: 24%;
+}

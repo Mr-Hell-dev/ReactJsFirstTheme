@@ -1,0 +1,14 @@
+.card{
+    /* text-align: center; */
+    padding: 5px;
+}
+.card h1{
+    /* float: left; */
+}
+.card > .icon{
+    transform: scale(2);
+    float: left;
+}
+.font-mono{
+    font-family: monospace;
+}

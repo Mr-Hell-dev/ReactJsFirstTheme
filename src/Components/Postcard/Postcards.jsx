@@ -20,7 +20,7 @@ const Postcards = () => {
                     {postcard.map((s) => {
                         return <Postcard key={s.id} img={s.img} title={s.title} desc={s.Desc} />
                     })}
-                    <div class="line normalline">
+                    <div class="line2">
 
                     </div>
                 </div>
